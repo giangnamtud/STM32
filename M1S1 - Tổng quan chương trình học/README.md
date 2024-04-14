@@ -8,9 +8,9 @@ Giới thiệu mục tiêu khóa học, các module nội dung học, hướng d
 
 # Cài đặt Phần Mềm: 
 - Cài đặt phần mềm STM32CubeIDE phiên bản mới nhất theo hướng dẫn sau (hỗ trợ Win/Mac/Linux): https://youtu.be/KzgDkfGGmFg
-- Hướng dẫn tạo project: https://youtu.be/bHCLt8-76qU
-  Đặc biệt lưu ý ở video hướng dẫn tạo project, tại phút 3:40, các bạn nhập tên vi điều khiển là STM32F103C8T6 hoặc tên dòng vi điều khiển của bạn
-  dùng để phần mềm tải gói thư viện hỗ trợ tương ứng với kit thực hành bạn sử dụng. Khi phần mềm yêu cầu TẠO TÀI KHOẢN để tải thì các bạn cứ tạo tài khoản và đăng nhập vào trong phần mềm
+- Hướng dẫn tạo project: https://youtu.be/bHCLt8-76qU. 
+Đặc biệt lưu ý ở video hướng dẫn tạo project, tại phút 3:40, các bạn nhập tên vi điều khiển là STM32F103C8T6 hoặc tên dòng vi điều khiển của bạn
+dùng để phần mềm tải gói thư viện hỗ trợ tương ứng với kit thực hành bạn sử dụng. Khi phần mềm yêu cầu TẠO TÀI KHOẢN để tải thì các bạn cứ tạo tài khoản và đăng nhập vào trong phần mềm
 
 # Bài Tập Về nhà:
 Tự ôn tập C với các nội dung sau:
