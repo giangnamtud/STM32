@@ -12,6 +12,7 @@
 - Datasheet AT89C51: https://www.keil.com/dd/docs/datashts/atmel/at89c51_ds.pdf
 - Đặc biệt chú ý (Đây là Board mà mình sử dụng) STM32F407VG MCU: 
   + Datasheet:  https://www.st.com/en/evaluation-tools/stm32f4discovery.html
+  + Data Brief: https://www.st.com/resource/en/data_brief/stm32f4discovery.pdf
   + User Manual: https://www.st.com/resource/en/user_manual/um1472-discovery-kit-with-stm32f407vg-mcu-stmicroelectronics.pdf
 
 # BÀI TẬP: 
