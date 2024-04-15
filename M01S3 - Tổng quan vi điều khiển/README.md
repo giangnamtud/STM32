@@ -7,15 +7,19 @@
 # TÀI LIỆU: 
 - Video ghi lại: https://youtu.be/g_ax8MDOZ7k
 - Slide: https://docs.google.com/presentation/d/1DIUr6NrQVN0oIGe6T2lwTHT5G1ibQRA0/edit?usp=sharing&ouid=109030928772764985009&rtpof=true&sd=true
-- Trang thông tin kit STM32F103 BluePill: https://stm32-base.org/boards/STM32F103C8T6-Blue-Pill.html
-- Datasheet STM32F103C8T6: https://www.st.com/resource/en/datasheet/stm32f103c8.pdf
-- Datasheet AT89C51: https://www.keil.com/dd/docs/datashts/atmel/at89c51_ds.pdf
+- Một số vi điều khiển phổ biến:
+  + STM32F103 BluePill: https://stm32-base.org/boards/STM32F103C8T6-Blue-Pill.html
+  + STM32F103C8T6: https://www.st.com/resource/en/datasheet/stm32f103c8.pdf
+  + AT89C51: https://www.keil.com/dd/docs/datashts/atmel/at89c51_ds.pdf
+  + Atmega328p in Arduino UNO R3: https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf
+  + CYW54907: https://www.infineon.com/dgdl/Infineon-CYW54907_WICED_IEEE_802-DataSheet-v09_00-EN.pdf?fileId=8ac78c8c882315570188262f365b1a87
 - Đặc biệt chú ý (Đây là Board mà mình sử dụng) STM32F407VG MCU: 
   + Datasheet:  https://www.st.com/en/evaluation-tools/stm32f4discovery.html
   + Data Brief: https://www.st.com/resource/en/data_brief/stm32f4discovery.pdf
   + User Manual: https://www.st.com/resource/en/user_manual/um1472-discovery-kit-with-stm32f407vg-mcu-stmicroelectronics.pdf
 
 # BÀI TẬP: 
+## Bài 1: 
 Dựa vào tài liệu datasheet, trả lời các câu hỏi sau vào phần bình luận (tạo 1 file doc online của google, trả lời vào đấy và share link ở bình luận) , làm được câu nào thì các bạn trả lời câu đó, câu nào chưa được thì cứ để lại. Mỗi câu trả lời các bạn chụp ảnh phần có liên quan trong datasheet để đưa lên.
 - Vi điều khiển của bạn có tổng cộng bao nhiêu chân (Pin)?
 - Có bao nhiêu I/O Pin?
