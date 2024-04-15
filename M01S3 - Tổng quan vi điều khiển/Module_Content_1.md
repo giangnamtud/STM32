@@ -5,7 +5,7 @@
 
 ## 2) Block Diagram
 Mỗi Datasheet đều có 1 Block Diagram, trong Block Diagram sẽ có các thành phần:
-- Vi xử lý CPU
+- Vi xử lý chứa CPU và 1 vài thiết bị ngoại vi hỗ trợ khác (ở phía dưới sẽ gọi tăt là CPU)
 - Bộ nhớ
 - ngoại vi (Peripheral)
 - Hệ thống Bus
