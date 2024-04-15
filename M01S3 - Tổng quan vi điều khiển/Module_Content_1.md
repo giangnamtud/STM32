@@ -6,7 +6,7 @@
 - MCU = vi điều khiển
 - User manual board: Tổng quan và hướng dẫn sử dụng board mạch thực hành, các thành phần trên board mạch. (F103 BluePill: website)
 - Schematic: Sơ đồ nguyên lý mạch của board mạch thực hành, linh kiện nào, chân nào nối với chân nào. 
-- Datasheet: Tổng quan về thiết bị và thông suất kỹ thuật
+- Datasheet: Tổng quan về thiết bị và thông suất kỹ thuật, thường dùng chung cho 1 dòng vi điều khiển.
 - Reference manual: Hướng dẫn sửa dụng thiết bị, các tính năng, bước thực hiện và thanh ghi. 
 - Application note: Ghi chú, hướng dẫn sử dụng một tính năng ngoại vi nào đấy
 - Description of STM32F3 / 4 / 0 /1 HAL and low-layer drivers: Tài liệu mô tả và hướng dẫn sử dụng thư viện HAL
