@@ -13,7 +13,7 @@ Mỗi Datasheet đều có 1 Block Diagram, trong Block Diagram sẽ có các th
 Ta thường thấy bộ nhớ Flash, RAM. Bộ nhớ được chia làm 2 loại: Bộ nhớ chương trình và dữ liệu.
 - Bộ nhớ chương trình thường là Flash: Khi ta viết code ở trên máy tính, khi biên dịch thì ra file binary chứa cá cái bit để đưa
 vào trong vi điều khiển, sau đó vi điều khiển mới dịch ra và chạy. Mã code này sẽ được đưa vào trong Flash. Tính chất của Flash là
-non-volaitle (không bay hơi), tức là khi nào thực hiện lệnh xóa thì mới mất còn khi mất điện thì dữ liệu vẫn còn nguyên. Khi đã nạp
+non-volatile (không bay hơi), tức là khi nào thực hiện lệnh xóa thì mới mất còn khi mất điện thì dữ liệu vẫn còn nguyên. Khi đã nạp
 chương trình vào vi điều khiển 1 lần thì chương trình sẽ nằm ở trong đó. Khi mất điện thì vi điều khiển không chạy được nữa còn
 khi có điện thì lại chạy lại từ đầu, nhấ RESET nó lại chạy lại từ đầu (Giống ổ cứng của máy tính)
 - Bộ nhớ dữ liệu thường là RAM: RAM chứa các dữ liệu khi phần mềm chạy
