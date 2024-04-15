@@ -9,8 +9,10 @@
 - Slide: https://docs.google.com/presentation/d/1DIUr6NrQVN0oIGe6T2lwTHT5G1ibQRA0/edit?usp=sharing&ouid=109030928772764985009&rtpof=true&sd=true
 - Trang thông tin kit STM32F103 BluePill: https://stm32-base.org/boards/STM32F103C8T6-Blue-Pill.html
 - Datasheet STM32F103C8T6: https://www.st.com/resource/en/datasheet/stm32f103c8.pdf
-- Datasheet STM32F407VG MCU: https://www.st.com/en/evaluation-tools/stm32f4discovery.html
-- User Manual STM32F407VG MCU: https://www.st.com/resource/en/user_manual/um1472-discovery-kit-with-stm32f407vg-mcu-stmicroelectronics.pdf
+- Datasheet AT89C51: https://www.keil.com/dd/docs/datashts/atmel/at89c51_ds.pdf
+- Đặc biệt chú ý (Đây là Board mà mình sử dụng) STM32F407VG MCU: 
+  + Datasheet:  https://www.st.com/en/evaluation-tools/stm32f4discovery.html
+  + User Manual: https://www.st.com/resource/en/user_manual/um1472-discovery-kit-with-stm32f407vg-mcu-stmicroelectronics.pdf
 
 # BÀI TẬP: 
 Dựa vào tài liệu datasheet, trả lời các câu hỏi sau vào phần bình luận (tạo 1 file doc online của google, trả lời vào đấy và share link ở bình luận) , làm được câu nào thì các bạn trả lời câu đó, câu nào chưa được thì cứ để lại. Mỗi câu trả lời các bạn chụp ảnh phần có liên quan trong datasheet để đưa lên.
