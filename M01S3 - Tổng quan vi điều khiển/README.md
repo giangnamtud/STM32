@@ -11,11 +11,11 @@
 - Giới thiệu tài liệu User Manual Board, Schematic của mạch thực hành.
 - Phân tích sơ đồ nguyên lý mạch LED, mức logic để LED ON/ OFF.
 - Giới thiệu các bước thực hiện, giao diện trên phần mềm STM32CubeIDE:
-+ Tạo/ chọn workspace: Là nơi lưu trữ các project có sự liên quan với nhau như các project trong khóa học/ trong 1 dự án.
-+ Chọn vi điều khiển
-+ Cấu hình vi điều khiển và sinh mã code
-+ Dev Code, biên dịch code.
-+ Nạp chương trình vào thiết bị
+  + Tạo/ chọn workspace: Là nơi lưu trữ các project có sự liên quan với nhau như các project         trong khóa học/ trong 1 dự án.
+  + Chọn vi điều khiển
+  + Cấu hình vi điều khiển và sinh mã code
+  + Dev Code, biên dịch code.
+  + Nạp chương trình vào thiết bị
 - Hướng dẫn kiểm tra driver, là trung gian đển phần mềm STM32CubeIDE có thể làm việc được với phần cứng thông qua kết nối cổng USB, kiểm tra tại trình Device Manager.
 - Viết mã code kiểm tra với hàm HAL_GPIO_WritePin để điều khiển Logic trên chân OUTPUT nối LED.
 
