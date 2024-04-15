@@ -1,4 +1,5 @@
 # TÓM TẮT:
+## Buổi 1:
 - Trong buổi học tối qua chúng ta đã phân tích cấu trúc vi điều khiển, vi xử lý, bộ nhớ, ngoại vi, hệ thống bus dựa vào sơ đồ Block Diagram dựa vào tài liệu Datasheet của vi điều khiển. So sánh tương đương với máy tính laptop để dễ hiểu.
 - Vi điều khiển lõi ARM là vi điều khiển có vi xử lý ARM (loại ARM Cortex M), các hãng vi điều khiển sẽ mua thiết kế của vi xử lý ARM và thiết kế thêm bộ nhớ, ngoại vi..vv.. để tạo thành các dòng vi điều khiển của họ với rất nhiều tùy chọn như ít chân, nhiều chân, ít ngoại vi, nhiều ngoại vi, ít hay nhiều bộ nhớ,...vv..
 - Một số từ khóa đã được mình nhắc đến: datasheet, block diagram, MCU, CPU/Processor.
