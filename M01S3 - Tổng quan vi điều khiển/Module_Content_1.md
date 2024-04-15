@@ -40,6 +40,7 @@ SSD, HDD, các thanh RAM. Trên máy tính cũng có các cổng USB, cổng HDM
 tích hợp trên 1 cái mainboard thì đó là bus system để kết nối các thành phần
 => Vi điều khiển cũng có 1 cấu trúc tương tự như vậy.
 
+
 ## 3) Một số vi điều khiển khác:
 ### a) ATmega328/p
 - Vi xử lý AVR
@@ -76,6 +77,58 @@ Có thêm giao tiếp về mạng WLAN được kết nối với 1 hệ thống
 ![CYW54907 Block Diagram](https://github.com/giangnamtud/STM32/assets/165153939/a31524a5-34e6-43bb-a9bf-1a1d69d68e8e)
 
 * Kết luận
-- Vi điều khiển thường có cấu trúc như nhau
-- Khi làm việc vs STM32 thì vi điều khiển được cấu trúc dựa trên vi xử lý ARM Cortex M. Tức là vi xử lý đã có tính đóng gói, rất nhiều hãng có
+  - Vi điều khiển thường có cấu trúc như nhau
+  - Khi làm việc vs STM32 thì vi điều khiển được cấu trúc dựa trên vi xử lý ARM Cortex M. Tức là vi xử lý đã có tính đóng gói, rất nhiều hãng có
 thể mua thiết kế của vi xử lý về và thiết kế thêm bộ nhớ, ngoại vi, ...
+
+
+## 4) Vi điều khiển của STM32
+Link: https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html
+
+![image](https://github.com/giangnamtud/STM32/assets/165153939/0ca37415-5651-450b-a71b-60b94e03ca16)
+
+STM32 có nhiều dòng vi điều khiển, trong đó có 1385 con sử dụng ARM Cortex M. Ta thấy có 4 dòng chính
+- Wireless: Hỗ trợ chuẩn giao tiếp không dây, phù hợp với IoT (Dòng W)
+- Ultra Low Power: Được thiết kế đặc thù để tiêu thụ ít năng lượng hơn (Dòng L, U). Thường đc ứng dụng cho wearable device, remote usable
+- Mainstream: Sử dụng rộng rãi, vừa đảm bảo được hiệu năng, vừa đảm bảo được năng lượng (Dòng C, F, G). Ví dụ: STM32F103
+- High Perfomance: Hiệu năng tốt, xử lý nhanh, ngoại vi nhiều, nhiều bộ nhớ, .. (Dòng F, H). Ví dụ: STM32F407
+
+
+## 5) Vi xử lý của ARM
+Link: https://www.arm.com/
+
+- ARM nổi tiếng về compute technology (về vi xử lý): Arm is the leading technology provider of processor IP, offering the widest range of cores to address the performance, power, and cost requirements of every device—from IoT sensors to supercomputers, and from smartphones and laptops to autonomous vehicles.
+
+- ARM Cortex M có nhiều dòng:
+The Cortex-M processor series is designed to enable developers to create cost-sensitive and power-constrained solutions for a broad range of devices. The optimal balance between area, performance, and power makes Cortex-M3 ideal for products such as microcontrollers, automotive body systems, and wireless networking and sensors.
+
+![Screenshot 2024-04-15 131932](https://github.com/giangnamtud/STM32/assets/165153939/cc5d1307-03e9-4a1e-a725-63810ade7efe)
+![Screenshot 2024-04-15 131949](https://github.com/giangnamtud/STM32/assets/165153939/fd899552-25ef-4b40-b7b8-e30d114d99e9)
+![Screenshot 2024-04-15 132001](https://github.com/giangnamtud/STM32/assets/165153939/7be41189-f5e0-49d8-b30f-c1b65830428c)
+![Screenshot 2024-04-15 132012](https://github.com/giangnamtud/STM32/assets/165153939/7095fceb-5c70-49e1-94ba-21d2444620eb)
+
+Với vi điều khiển ta tập trung vào các dòng M0, M3, M4, M7
+
+### a) ARM Cortex M3:
+Link: https://www.arm.com/products/silicon-ip-cpu/cortex-m/cortex-m3
+
+Các vi điều khiển thuộc dòng STM32 thường sử dụng vi xử lý này vì cân đối giữa hiệu năng và năng lượng
+
+![image](https://github.com/giangnamtud/STM32/assets/165153939/7385e225-492a-4e4c-ae23-4922b5bbf43e)
+
+Bên trong vi xử lý sẽ có CPU, và các ngoại vi khác để hỗ trợ cho CPU này
+- JTAG, Serial Wire: Hỗ trợ nạp chương trình và debug
+- Nested vectored interrupt controller: hỗ trợ xử lý ngắt
+- Memory Protection Unit: Liên quan đến security, chống truy cập trái phép đến 1 địa chỉ nhớ nào đó
+
+### b) ARM Cortex M4:
+Link: https://www.arm.com/products/silicon-ip-cpu/cortex-m/cortex-m4
+
+M4 tập trung vào hiệu năng so với M3
+
+![image](https://github.com/giangnamtud/STM32/assets/165153939/080b1199-b9f0-4b04-be93-7213ad03e5bf)
+
+Có cấu trúc phức tạp hơn so vs M3
+- FPU (floating point unit): hỗ trợ tính toán số thực nhanh hơn, xử lý thuật toán AI, DSP nhanh hơn
+- DSP: giải mã DSP rất nhanh
+
