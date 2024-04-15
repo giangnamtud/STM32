@@ -13,8 +13,9 @@
   + AT89C51: https://www.keil.com/dd/docs/datashts/atmel/at89c51_ds.pdf
   + Atmega328p in Arduino UNO R3: https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf
   + CYW54907: https://www.infineon.com/dgdl/Infineon-CYW54907_WICED_IEEE_802-DataSheet-v09_00-EN.pdf?fileId=8ac78c8c882315570188262f365b1a87
-- Đặc biệt chú ý (Đây là Board mà mình sử dụng) STM32F407VG MCU: 
-  + Datasheet:  https://www.st.com/en/evaluation-tools/stm32f4discovery.html
+- Đặc biệt chú ý (Đây là Board mà mình sử dụng) STM32F407VG MCU:
+  + Info: https://www.st.com/en/evaluation-tools/stm32f4discovery.html
+  + Datasheet: https://www.st.com/resource/en/datasheet/stm32f405rg.pdf
   + Data Brief: https://www.st.com/resource/en/data_brief/stm32f4discovery.pdf
   + User Manual: https://www.st.com/resource/en/user_manual/um1472-discovery-kit-with-stm32f407vg-mcu-stmicroelectronics.pdf
 
