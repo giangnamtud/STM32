@@ -42,12 +42,11 @@ hiểu được các bit trong bộ nhớ(decode). Cuối cùng là thực thi l
 Peripheral (ngoại vi) 
 ### d) Bus System:
 Cá đường nối với nhau
-
-* So sánh sự tương đồng với PC:
+## e) So sánh sự tương đồng với PC:
 Trong máy tính của mọi người có thể có sự dụng chip core i5, i7 thì đó là bộ vi xử lý. Bên cạnh đó máy tính cũng có bộ nhớ
 SSD, HDD, các thanh RAM. Trên máy tính cũng có các cổng USB, cổng HDMI Erthenet,... thì đó là các ngoại vi. Máy tính được thiết kế
 tích hợp trên 1 cái mainboard thì đó là bus system để kết nối các thành phần
-=> Vi điều khiển cũng có 1 cấu trúc tương tự như vậy.
+=> Vi điều khiển cũng có 1 cấu trúc tương tự như vậy nhưng tài nguyên bị hạn chế. Do đó nó được ứng dụng vào 1 mục đích, chức năng cụ thể nào đó. Không giống như máy tính, điện thoại là general purpose device có thể sử dụng nhiều phần mềm khác nhau; chương trình cho vi điều khiển (firmware) thường được sinh ra để làm 1 tác vụ cụ thể
 
 
 ## 3) Một số vi điều khiển khác:
