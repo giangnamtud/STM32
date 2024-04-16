@@ -37,6 +37,7 @@
   + Datasheet: https://www.st.com/resource/en/datasheet/stm32f405rg.pdf
   + Data Brief: https://www.st.com/resource/en/data_brief/stm32f4discovery.pdf
   + User Manual: https://www.st.com/resource/en/user_manual/um1472-discovery-kit-with-stm32f407vg-mcu-stmicroelectronics.pdf
+  + Reference Manual: https://www.st.com/resource/en/reference_manual/dm00031020-stm32f405-415-stm32f407-417-stm32f427-437-and-stm32f429-439-advanced-arm-based-32-bit-mcus-stmicroelectronics.pdf
 
 # BÀI TẬP: 
 ## Bài 1: 
